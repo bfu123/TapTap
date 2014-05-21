@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FB21D5DE18FFE856002A92C4 /* HighScoreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB21D5DD18FFE856002A92C4 /* HighScoreViewController.m */; };
 		FBEF6D7D18FA9D6E003032E8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBEF6D7C18FA9D6E003032E8 /* Foundation.framework */; };
 		FBEF6D7F18FA9D6E003032E8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBEF6D7E18FA9D6E003032E8 /* CoreGraphics.framework */; };
 		FBEF6D8118FA9D6E003032E8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBEF6D8018FA9D6E003032E8 /* UIKit.framework */; };
@@ -22,6 +23,9 @@
 		FBEF6DA118FA9D6E003032E8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBEF6D8018FA9D6E003032E8 /* UIKit.framework */; };
 		FBEF6DA918FA9D6E003032E8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FBEF6DA718FA9D6E003032E8 /* InfoPlist.strings */; };
 		FBEF6DAB18FA9D6E003032E8 /* TapTapTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FBEF6DAA18FA9D6E003032E8 /* TapTapTests.m */; };
+		FBEF6DB618FA9DF0003032E8 /* Mode1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FBEF6DB518FA9DF0003032E8 /* Mode1ViewController.m */; };
+		FBEF6DB918FA9E01003032E8 /* Mode2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FBEF6DB818FA9E01003032E8 /* Mode2ViewController.m */; };
+		FBF30F991900B18900298E71 /* Mode3ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FBF30F981900B18900298E71 /* Mode3ViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FB21D5DC18FFE856002A92C4 /* HighScoreViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HighScoreViewController.h; sourceTree = "<group>"; };
+		FB21D5DD18FFE856002A92C4 /* HighScoreViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HighScoreViewController.m; sourceTree = "<group>"; };
 		FBEF6D7918FA9D6E003032E8 /* TapTap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TapTap.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBEF6D7C18FA9D6E003032E8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		FBEF6D7E18FA9D6E003032E8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -55,6 +61,12 @@
 		FBEF6DA618FA9D6E003032E8 /* TapTapTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TapTapTests-Info.plist"; sourceTree = "<group>"; };
 		FBEF6DA818FA9D6E003032E8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		FBEF6DAA18FA9D6E003032E8 /* TapTapTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TapTapTests.m; sourceTree = "<group>"; };
+		FBEF6DB418FA9DF0003032E8 /* Mode1ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Mode1ViewController.h; sourceTree = "<group>"; };
+		FBEF6DB518FA9DF0003032E8 /* Mode1ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Mode1ViewController.m; sourceTree = "<group>"; };
+		FBEF6DB718FA9E01003032E8 /* Mode2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Mode2ViewController.h; sourceTree = "<group>"; };
+		FBEF6DB818FA9E01003032E8 /* Mode2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Mode2ViewController.m; sourceTree = "<group>"; };
+		FBF30F971900B18900298E71 /* Mode3ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Mode3ViewController.h; sourceTree = "<group>"; };
+		FBF30F981900B18900298E71 /* Mode3ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Mode3ViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +132,14 @@
 				FBEF6D9118FA9D6E003032E8 /* Main_iPad.storyboard */,
 				FBEF6D9418FA9D6E003032E8 /* ViewController.h */,
 				FBEF6D9518FA9D6E003032E8 /* ViewController.m */,
+				FBEF6DB418FA9DF0003032E8 /* Mode1ViewController.h */,
+				FBEF6DB518FA9DF0003032E8 /* Mode1ViewController.m */,
+				FBEF6DB718FA9E01003032E8 /* Mode2ViewController.h */,
+				FBEF6DB818FA9E01003032E8 /* Mode2ViewController.m */,
+				FBF30F971900B18900298E71 /* Mode3ViewController.h */,
+				FBF30F981900B18900298E71 /* Mode3ViewController.m */,
+				FB21D5DC18FFE856002A92C4 /* HighScoreViewController.h */,
+				FB21D5DD18FFE856002A92C4 /* HighScoreViewController.m */,
 				FBEF6D9718FA9D6E003032E8 /* Images.xcassets */,
 				FBEF6D8318FA9D6E003032E8 /* Supporting Files */,
 			);
@@ -253,9 +273,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FBEF6DB918FA9E01003032E8 /* Mode2ViewController.m in Sources */,
 				FBEF6D9618FA9D6E003032E8 /* ViewController.m in Sources */,
+				FBEF6DB618FA9DF0003032E8 /* Mode1ViewController.m in Sources */,
+				FBF30F991900B18900298E71 /* Mode3ViewController.m in Sources */,
 				FBEF6D8D18FA9D6E003032E8 /* AppDelegate.m in Sources */,
 				FBEF6D8918FA9D6E003032E8 /* main.m in Sources */,
+				FB21D5DE18FFE856002A92C4 /* HighScoreViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -390,10 +414,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TapTap/TapTap-Prefix.pch";
 				INFOPLIST_FILE = "TapTap/TapTap-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -407,6 +433,7 @@
 				GCC_PREFIX_HEADER = "TapTap/TapTap-Prefix.pch";
 				INFOPLIST_FILE = "TapTap/TapTap-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -470,6 +497,7 @@
 				FBEF6DB018FA9D6E003032E8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FBEF6DB118FA9D6E003032E8 /* Build configuration list for PBXNativeTarget "TapTapTests" */ = {
 			isa = XCConfigurationList;
@@ -478,6 +506,7 @@
 				FBEF6DB318FA9D6E003032E8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
